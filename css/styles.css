@@ -1,0 +1,26 @@
+/* Admin */
+.MainContainer {
+  margin-top: 5vh;
+  display: flex;
+}
+
+/* Property*/
+
+.propertyContainer {
+  margin-top: 5vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.leftPusher {
+  flex-grow: 1;
+}
+
+.propertyForm {
+  flex-grow: 2;
+}
+
+.rightPusher {
+  flex-grow: 1;
+}
