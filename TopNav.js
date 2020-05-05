@@ -17,6 +17,9 @@ const TopNav = ({ setActivePage }) => {
         <Menu.Item onClick={() => setActivePage("Bookings")}>
           Bookings
         </Menu.Item>
+        <Menu.Item onClick={() => setActivePage("UploadBookings")} >
+          Upload Bookings
+        </Menu.Item>
         <Menu.Item onClick={() => setActivePage("Guests")}>Guests</Menu.Item>
         <Menu.Item onClick={() => setActivePage("Manager")}>Managers</Menu.Item>
       </Menu>

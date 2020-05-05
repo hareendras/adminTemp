@@ -21,6 +21,12 @@
   flex-grow: 2;
 }
 
+.bookingsForm {
+  
+  flex-grow: 1;
+ 
+}
+
 .rightPusher {
   flex-grow: 1;
 }

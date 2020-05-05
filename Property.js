@@ -1,11 +1,12 @@
 import React from "react";
-import { Button, Checkbox, Form, Container } from "semantic-ui-react";
+import { Button, Checkbox, Form, Container, Segment } from "semantic-ui-react";
 import "./css/styles.css";
 
 const Property = () => (
   <div className="propertyContainer">
     <div className="leftPusher"></div>
     <div className="propertyForm">
+    <Segment>
       <Form>
         <Form.Field>
           <label>Property Name</label>
@@ -25,6 +26,7 @@ const Property = () => (
         </Form.Field>
         <Button type="submit">Submit</Button>
       </Form>
+      </Segment>
     </div>
     <div className="rightPusher"></div>
   </div>
