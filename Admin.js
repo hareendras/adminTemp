@@ -7,6 +7,7 @@ import BookingsContainer from "./BookingsContainer";
 import GuestsContainer from "./GuestsContainer";
 import "./css/styles.css";
 import UploadBookingsContainer from "./UploadBookingContainer";
+import ManagersContainer from "./ManagersContainer";
 
 export const Admin = () => {
   const [activePage, setActivePage] = useState("Property");
@@ -22,7 +23,8 @@ export const Admin = () => {
           return <GuestsContainer />;
       case "UploadBookings":
         return <UploadBookingsContainer />;
-
+        case "Managers":
+          return <ManagersContainer />;
       default:
         return <PropertyContainer />;
     }
