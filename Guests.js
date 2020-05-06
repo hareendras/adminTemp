@@ -9,33 +9,32 @@ import {
   Menu,
   Table,
   Header,
-  Message
+  Message,
+  Input,
 } from "semantic-ui-react";
 
-const Bookings = () => {
+const Guests = () => {
   return (
     <div className="propertyContainer">
       <div className="leftPusher">
-      <Message
+        <Message
           compact
           info
-          header="This is Bookings page"
-          content="Here you can view bookigs for given date range. "
+          header="This is Guests page"
+          content="Here you can view Guests data. "
         ></Message>
-    </div>
-      
+      </div>
+
       <div className="propertyForm">
-        <Header content="Bookings" />
+        <Header content="Guests" />
         <Segment>
           <Form>
             <Form.Group widths="equal">
               <Form.Field>
-                <label>From</label>
-                <DatePicker />
-              </Form.Field>
-              <Form.Field>
-                <label>To</label>
-                <DatePicker />
+                <Input
+                  icon={<Icon name="search" inverted circular link />}
+                  placeholder="Search..."
+                />
               </Form.Field>
             </Form.Group>
           </Form>
@@ -94,4 +93,4 @@ const Bookings = () => {
   );
 };
 
-export default Bookings;
+export default Guests;

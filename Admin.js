@@ -4,7 +4,7 @@ import "semantic-ui-css/semantic.min.css";
 import TopNav from "./TopNav";
 import PropertyContainer from "./PropertyContainer";
 import BookingsContainer from "./BookingsContainer";
-
+import GuestsContainer from "./GuestsContainer";
 import "./css/styles.css";
 import UploadBookingsContainer from "./UploadBookingContainer";
 
@@ -18,6 +18,8 @@ export const Admin = () => {
         return <PropertyContainer />;
       case "Bookings":
         return <BookingsContainer />;
+        case "Guests":
+          return <GuestsContainer />;
       case "UploadBookings":
         return <UploadBookingsContainer />;
 

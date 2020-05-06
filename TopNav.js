@@ -7,7 +7,7 @@ const TopNav = ({ setActivePage }) => {
     <Container>
       <Header as="h3" content="EasyCheckin.com Admin app" textAlign="center" />
 
-      <Menu stackable inverted>
+      <Menu stackable inverted >
         <Menu.Item>
           {/*<img src="/logo.png" />(/)*/}
         </Menu.Item>

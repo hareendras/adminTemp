@@ -13,20 +13,33 @@
   flex-wrap: wrap;
 }
 
-.leftPusher {
-  flex-grow: 1;
-}
-
-.propertyForm {
-  flex-grow: 2;
-}
-
-.bookingsForm {
+.leftPusher {  
+  flex-grow: 1; 
+  margin: 1%;
   
-  flex-grow: 1;
+}
+@media screen, (max-width: 500px){
+.leftPusher{
+  width: 25%;
  
 }
 
+}
+
+.propertyForm {
+  margin: 1%;
+  flex-grow: 2;
+}
+
+.bookingsForm {  
+  flex-grow: 1; 
+}
+
 .rightPusher {
-  flex-grow: 1;
+ 
+}
+
+.propertyNameBtnSubmit{
+  display: flex;
+  justify-content: flex-end;  
 }
